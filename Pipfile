@@ -8,6 +8,9 @@ name = "pypi"
 [packages]
 
 "PyQt5" = "*"
+"Qtazu" = "*"
+"Pytest" = "*"
+"Pytest-qt" = "*"
 
 
 [dev-packages]
@@ -18,3 +21,4 @@ Sphinx = "*"
 sphinx_rtd_theme = "*"
 "e1839a8" = {path = ".", editable = true}
 "flake8" = "*"
+"black" = "*"

@@ -4,9 +4,7 @@ from PyQt5.QtGui import QFontDatabase, QFont, QIcon
 from PyQt5.QtCore import QFile, QTextStream, QTranslator, QLocale
 from PyQt5.QtWidgets import QApplication
 
-from .views.MainWindow import MainWindow
-
-from . import resources_rc  # noqa
+from app.views.MainWindow import MainWindow
 
 
 def main():
@@ -15,8 +13,8 @@ def main():
     app.setWindowIcon(QIcon(':/icons/app.svg'))
 
     fontDB = QFontDatabase()
-    fontDB.addApplicationFont(':/fonts/Roboto-Regular.ttf')
-    app.setFont(QFont('Roboto'))
+    fontDB.addApplicationFont(':/fonts/Lato-Regular.ttf')
+    app.setFont(QFont('Lato'))
 
     f = QFile(':/style.qss')
     f.open(QFile.ReadOnly | QFile.Text)

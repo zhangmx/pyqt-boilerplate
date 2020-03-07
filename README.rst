@@ -1,17 +1,13 @@
 PyQt5 Application Boilerplate
 =============================
 
-This repository contains a boilerplate for PyQt5 based applications.
-
-.. image:: https://user-images.githubusercontent.com/25011557/36483230-da4620c6-1715-11e8-9ee5-c10053641440.png
-    :alt: PyQt5 Application Boilerplate
+This repository contains a boilerplate for PyQt5 based applications for Kitsu.
 
 Features
 --------
 
 - Dependency management using pipenv_
 - Use the *standard* ``setup.py`` to build resources, docs, etc.
-- Manage resources and UI forms using a Qt Creator project
 - Generate a *compiled* application for Windows, Linux and macOS using
   PyInstaller_
 - Multilanguage support
