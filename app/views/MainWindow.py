@@ -1,4 +1,4 @@
-from .Qt.QtWidgets import QMainWindow
+from app.Qt.QtWidgets import QMainWindow
 
 from .MainWindow_ui import Ui_MainWindow
 
