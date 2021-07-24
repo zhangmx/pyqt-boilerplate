@@ -18,9 +18,10 @@ Getting started
 ---------------
 
 First of all make sure you have pipenv_ installed and then initialize a
-working development environment like this::
+working development environment like this(OR with --skip-lock)::
 
     pipenv install --dev
+
 
 Once all dependencies are installed, you should enter the environment shell like
 this::

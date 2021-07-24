@@ -1,6 +1,7 @@
 # Editors
 *.swp
 *.user
+.idea
 
 # Python
 __pycache__/
